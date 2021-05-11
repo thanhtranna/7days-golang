@@ -57,7 +57,6 @@ func Parse(dest interface{}, d dialect.Dialect) *Schema {
 		Name:     tableName,
 		fieldMap: make(map[string]*Field),
 	}
-
 	for i := 0; i < modelType.NumField(); i++ {
 		p := modelType.Field(i)
 		if !p.Anonymous && ast.IsExported(p.Name) {

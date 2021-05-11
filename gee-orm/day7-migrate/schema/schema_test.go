@@ -1,8 +1,9 @@
 package schema
 
 import (
-	"geeorm/dialect"
 	"testing"
+
+	"geeorm/dialect"
 )
 
 type User struct {
