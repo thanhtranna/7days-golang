@@ -42,6 +42,7 @@ func TestGetRoute(t *testing.T) {
 	}
 
 	fmt.Printf("matched path: %s, params['name']: %s\n", n.pattern, ps["name"])
+
 }
 
 func TestGetRoute2(t *testing.T) {
