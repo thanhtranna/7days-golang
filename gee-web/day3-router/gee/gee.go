@@ -25,12 +25,12 @@ func (engine *Engine) addRoute(method string, pattern string, handler HandlerFun
 
 // GET defines the method to add GET request
 func (engine *Engine) GET(pattern string, handler HandlerFunc) {
-	engine.addRoute("GET", pattern, handler)
+	engine.addRoute(http.MethodGet, pattern, handler)
 }
 
 // POST defines the method to add POST request
 func (engine *Engine) POST(pattern string, handler HandlerFunc) {
-	engine.addRoute("POST", pattern, handler)
+	engine.addRoute(http.MethodPost, pattern, handler)
 }
 
 // Run defines the method to start a http server
