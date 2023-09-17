@@ -4,8 +4,7 @@ What can be accomplished in 7 days? A gin-like web framework? A distributed cach
 
 ## Web Framework - Gee
 
-Gee is a [gin](https://github.com/
-gin-gonic/gin)-like framework
+Gee is a [gin](https://github.com/gin-gonic/gin)-like framework
 
 
 - Day 1 - http.Handler Interface Basic [Code](gee-web/day1-http-base)
