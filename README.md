@@ -15,3 +15,14 @@ Gee is a [gin](https://github.com/gin-gonic/gin)-like framework
 - Day 6 - Embeded Template Support [Code](gee-web/day6-template)
 - Day 7 - Panic Recover & Make it Robust [Code](gee-web/day7-panic-recover)
 
+## Distributed Cache - GeeCache
+
+GeeCache is a [groupcache](https://github.com/golang/groupcache)-like distributed cache
+
+- Day 1 - LRU (Least Recently Used) Caching Strategy [Code](gee-cache/day1-lru)
+- Day 2 - Single Machine Concurrent Cache [Code](gee-cache/day2-single-node)
+- Day 3 - Launch a HTTP Server [Code](gee-cache/day3-http-server)
+- Day 4 - Consistent Hash Algorithm [Code](gee-cache/day4-consistent-hash)
+- Day 5 - Communication between Distributed Nodes [Code](gee-cache/day5-multi-nodes)
+- Day 6 - Cache Breakdown & Single Flight  | [Code](gee-cache/day6-single-flight)
+- Day 7 - Use Protobuf as RPC Data Exchange Type | [Code](gee-cache/day7-proto-buf)
