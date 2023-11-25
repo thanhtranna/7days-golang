@@ -26,3 +26,15 @@ GeeCache is a [groupcache](https://github.com/golang/groupcache)-like distribute
 - Day 5 - Communication between Distributed Nodes [Code](gee-cache/day5-multi-nodes)
 - Day 6 - Cache Breakdown & Single Flight  | [Code](gee-cache/day6-single-flight)
 - Day 7 - Use Protobuf as RPC Data Exchange Type | [Code](gee-cache/day7-proto-buf)
+
+## ORM framework - GeeORM
+
+GeeORM is an imitation of [gorm](https://github.com/jinzhu/gorm) and [xorm](https://github.com/go-xorm/xorm) ORM framework
+
+- Day 1：database/sql basics | [Code](gee-orm/day1-database-sql)
+- Day 2：Object table structure mapping | [Code](gee-orm/day2-reflect-schema)
+- Day 3：Record addition and query | [Code](gee-orm/day3-save-query)
+- Day 4：Chain operations and update and delete | [Code](gee-orm/day4-chain-operation)
+- Day 5：Implement Hooks | [Code](gee-orm/day5-hooks)
+- Day 6：Support transaction (Transaction) | [Code](gee-orm/day6-transaction)
+- Day 7：Database migration (Migrate) | [Code](gee-orm/day7-migrate)
